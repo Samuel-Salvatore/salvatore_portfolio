@@ -19,7 +19,7 @@ a {
     text-decoration: none;
 }
 
-.titolo {
+.nav_titolo {
     font-size: 1.9vw;
     font-family: 'Dancing Script', cursive;
     margin-left: 3%;
@@ -70,10 +70,46 @@ ul {
 
 }
 
-.presentazione {
+.titolo {
     font-size: 3.5vw;
     font-family: 'Dancing Script', cursive;
     text-align: center;    
     color: red;
     text-shadow: 1px 1px black;
+}
+
+.presentazione {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.foto {
+    width: 35%;
+}
+
+#piccolo, #grande {
+    border: 1px solid black;
+    height: auto;
+    margin: 1%;
+    width: 100%;
+}
+
+.papiro {
+    width: 65%;
+}
+
+.pres {
+    font-size: 2.5vw;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;    
+    color: red;
+    text-shadow: 1px 1px black;
+}
+
+.papiro > p {
+    margin: 2%;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3vw;
 }
