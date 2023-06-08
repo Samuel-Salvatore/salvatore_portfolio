@@ -6,7 +6,8 @@ nav {
     position: sticky;
     top: 5px;
     width: 100%;
-    background-color: white;
+    height: auto;
+    background-color: aliceblue;
 }
 
 #logo {
@@ -78,27 +79,6 @@ ul {
     text-shadow: 1px 1px black;
 }
 
-.presentazione {
-    display: flex;
-    width: 90%;
-    margin: auto;
-}
-
-.foto {
-    width: 35%;
-}
-
-#piccolo, #grande {
-    border: 1px solid black;
-    height: auto;
-    margin: 1%;
-    width: 100%;
-}
-
-.papiro {
-    width: 65%;
-}
-
 .pres {
     font-size: 2.5vw;
     font-family: 'Dancing Script', cursive;
@@ -107,9 +87,54 @@ ul {
     text-shadow: 1px 1px black;
 }
 
-.papiro > p {
+
+.presentazione {
+    width: 90%;
+    margin: auto;
+}
+
+#piccolo, #grande {
+    width: 25%;
+    height: auto;
+}
+
+#piccolo {
+    border-radius: 15px 0px 0px 0px;
+    border: 5px inset rgb(114, 104, 104);
+
+}
+
+#grande {
+    text-align: center;
+    float: right;
+    margin-top: -2.5%;
+    border-radius: 0px 0px 15px 0px;
+    border: 5px outset rgb(114, 104, 104);
+}
+
+#right { 
+    float: right;
+    width: 70%;
+}
+
+#left {
+    float: left;
+    width: 70%;
+}
+
+.papiro {
+    line-height: 180%;
     margin: 2%;
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.3vw;
+}
+
+#family {
+    width: 50%;
+}
+
+#family img {
+    margin: auto;
+    width: 70%;
 }
